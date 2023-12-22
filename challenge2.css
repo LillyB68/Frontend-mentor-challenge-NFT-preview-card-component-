@@ -1,0 +1,161 @@
+html{
+    height: 100vh;
+}
+body {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.card {
+    font-family: 'Outfit', sans-serif;
+    margin: 0px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.20);
+    margin-bottom: 10px;
+
+
+}
+
+.image {
+    position: relative;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#image-equilibrium {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hovered {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 50%, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.15s;
+    border-radius: 10px;
+}
+
+.hovered:hover {
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#text {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+.balance-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
+}
+
+#balance {
+    display: flex;
+    width: auto;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.ethereum {
+    width: 13px;
+    height: 18px;
+    margin-right: 8px;
+}
+#eth {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color:hsl(178, 100%, 50%);
+}
+
+#days-left {
+    display: flex;
+    width: auto;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    color: hsl(215, 51%, 70%);
+}
+
+.clock {
+    margin-right: 8px;
+}
+
+#days {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+.ruler {
+    margin: 0px;
+    padding: 0px;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#user-profile {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+#name {
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+
+strong {
+    color: white;
+}
+hr {
+    opacity: 0.15;
+}
